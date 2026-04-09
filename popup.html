@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CORS Bypass Master</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="icons/icon_std.png" alt="Logo" class="logo">
+      <h1>CORS Master</h1>
+    </header>
+
+    <div class="status-card">
+      <div class="status-info">
+        <span class="label">Protection Status</span>
+        <span id="status-text" class="status-off">Disabled</span>
+      </div>
+
+      <label class="switch">
+        <input type="checkbox" id="toggle-cors">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="whitelist-section">
+      <span class="label">Whitelisted URL Patterns</span>
+      <textarea id="whitelist" placeholder="e.g. http://localhost:3000/*&#10;http://172.16.50.14/*"></textarea>
+      <div class="hint">One pattern per line. Use * for wildcards.</div>
+    </div>
+
+    <div class="info">
+      <p>This extension injects headers into network responses to bypass Same-Origin Policy (SOP) restrictions. Useful for API development and testing.</p>
+    </div>
+
+    <footer>
+      <p>&copy; CORS Bypass Master. Dev Mode. - @sudarshaana</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

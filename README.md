@@ -28,6 +28,9 @@ The extension is pre-configured for the following Dhaka Flix media servers:
 4. Click Load unpacked and select the extension directory.
 5. Pin the extension to your toolbar for access.
 
+Or 
+[Download from Chrome Store](https://chromewebstore.google.com/detail/cors-bypass-master/elmghnlokefobpfhdgikcpgcejpcahaf)
+
 ## How to Use
 
 1. Click the CORS Master icon in your toolbar.
